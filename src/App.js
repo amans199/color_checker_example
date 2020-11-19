@@ -5,25 +5,12 @@ import {checkColor} from 'the-simplest-color-checker'
 import { Component } from 'react';
 
 class App extends Component {
-  // constructor(props){
-  //   checkColor({
-  //     selector: ".colors_box", //add any selector
-  //     optimize_text_color: true, //change text color depending on the background
-  //   })
-  // }
-  // componentDidUpdate(){
-  //   checkColor({
-  //        selector: ".colors_box", //add any selector
-  //        optimize_text_color: true, //change text color depending on the background
-  //      })
-  //     }
   componentDidMount(){
     checkColor({
       selector: ".colors_box", //add any selector
       optimize_text_color: true, //change text color depending on the background
     })
   }
-
       render() {
       
         return (
