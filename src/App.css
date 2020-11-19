@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.boxes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:10px;
+}
+
+.colors_box{
+  width:150px;
+  height:150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[data-color="#000"] {background-color:#000 !important}
+[data-color="#fff"] {background-color:#fff !important}
+[data-color="#0f0"] {background-color:#0f0 !important}
+[data-color="#00f"] {background-color:#00f !important}
+[data-color="#f00"] {background-color:#f00 !important}
